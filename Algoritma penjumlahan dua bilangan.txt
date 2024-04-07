@@ -1,0 +1,37 @@
+Notasi Algoritma Deskriptif
+
+> Membuat sebuah program penjumlahan dua bilangan
+
+1. Mulai
+2. Deklarasi variabel bilangan1, bilangan2, dan hasil sebagai integer
+3. Tampilkan pesan kepada pengguna untuk memasukkan bilangan pertama
+4. Baca bilangan pertama dari pengguna dan simpan dalam variabel bilangan1
+5. Tampilkan pesan kepada pengguna untuk memasukkan bilangan kedua
+6. Baca bilangan kedua dari pengguna dan simpan dalam variabel bilangan2
+7. Hitung jumlah kedua bilangan dan simpan hasilnya dalam variabel hasil
+8. Tampilkan hasil penjumlahan ke layar
+9. Selesai
+
+Notasi Algoritma Pseudocode
+
+> Membuat sebuah program penjumlahan dua bilangan
+
+// Menggunakan bahasa alami dan simbol-simbol standar
+START
+    // Langkah 1: Deklarasi variabel
+    bilangan1, bilangan2, hasil : INTEGER
+
+    // Langkah 2: Meminta masukan pengguna untuk bilangan pertama
+    TULISKAN "Masukkan bilangan pertama: "
+    BACA bilangan1
+
+    // Langkah 3: Meminta masukan pengguna untuk bilangan kedua
+    TULISKAN "Masukkan bilangan kedua: "
+    BACA bilangan2
+
+    // Langkah 4: Menghitung jumlah kedua bilangan
+    hasil <- bilangan1 + bilangan2
+
+    // Langkah 5: Menampilkan hasil penjumlahan ke layar
+    TULISKAN "Hasil penjumlahan: " + hasil
+END
